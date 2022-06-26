@@ -1,21 +1,21 @@
-// function snapCrackle(maxValue) {
+function snapCrackle(maxValue) {
      
-//      let newArray = []
+     let newArray = []
      
-//      for(let i = 1; i <= maxValue; i++) {
+     for(let i = 1; i <= maxValue; i++) {
           
-//           if( i % 2 == 1 && i % 5 != 0) {
-//                newArray.push("Snap")
-//           } else if(i % 5 == 0 && i % 2 == 0) {
-//                newArray.push("Crackle")
-//           } else if(i % 2 != 0 && i % 5 == 0) {
-//                newArray.push("SnapCrackle")
-//           } else {
-//                newArray.push(i)
-//           }
-//      }
-//      return newArray.join([f = ", "])
-// }
+          if( i % 2 == 1 && i % 5 != 0) {
+               newArray.push("Snap")
+          } else if(i % 5 == 0 && i % 2 == 0) {
+               newArray.push("Crackle")
+          } else if(i % 2 != 0 && i % 5 == 0) {
+               newArray.push("SnapCrackle")
+          } else {
+               newArray.push(i)
+          }
+     }
+     return newArray.join([f = ", "])
+}
 
 function isPrime(num) {
      for (let i = 2; i < num; i++){
@@ -53,4 +53,3 @@ function snapCracklePrime(value) {
      return arr.join([f = ", "])
 }
 
-console.log(snapCracklePrime(30))
