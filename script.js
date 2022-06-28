@@ -14,8 +14,11 @@ function snapCrackle(maxValue) {
                newArray.push(i)
           }
      }
-     return newArray.join([f = ", "])
-}
+     return newArray.join(', ')
+     
+ }
+
+ console.log(snapCrackle(30))
 
 function isPrime(num) {
      for (let i = 2; i < num; i++){
@@ -50,6 +53,6 @@ function snapCracklePrime(value) {
                arr.push(i)
           }
      }
-     return arr.join([f = ", "])
+     return arr.join(", ")
 }
-
+console.log(snapCracklePrime(30))
